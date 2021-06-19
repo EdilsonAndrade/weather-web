@@ -47,7 +47,10 @@
          ],
          "prettier/prettier": "error",
          "no-use-before-define": "off",
-         "@typescript-eslint/no-use-before-define": ["error"]
+         "@typescript-eslint/no-use-before-define": ["error"],
+         "react/require-default-props": ["off"],
+         "@typescript-eslint/no-explicit-any": ["off"],
+         "no-param-reassign": ["error", { "props": false }]
     },
     "settings": {
         "import/resolver": {
